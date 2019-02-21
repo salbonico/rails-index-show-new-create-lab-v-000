@@ -1,0 +1,1 @@
+class CreatePosts < ActiveRecord::Migration
