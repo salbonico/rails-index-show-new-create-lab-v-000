@@ -8,7 +8,7 @@ class CouponsController < ApplicationController
       end
 
       def new
-          @post = Post.new
+          @coupon = Post.new
         end
 
         def create
