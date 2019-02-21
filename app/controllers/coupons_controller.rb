@@ -12,7 +12,7 @@ class CouponsController < ApplicationController
         end
 
         def create
-          @post = Post.new
+          @coupon = Coupon.new
           @post.title = params[:title]
           @post.description = params[:description]
           @post.save
